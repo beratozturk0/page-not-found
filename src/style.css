@@ -1,0 +1,88 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+  body{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .notFoundWrapper{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    background-color: #03555e;
+    padding-inline: 1rem;
+  }
+
+.notFound {
+  font-size: 100px;
+  color: #fff;
+}
+
+.notFoundText {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+
+}
+
+.stoneityLogoLeft {
+  position: absolute;
+  rotate: 135deg;
+  left: -80px;
+  bottom: -80px;
+}
+
+.stoneityLogoRight {
+  position: absolute;
+  rotate: 135deg;
+  right: -80px;
+  bottom: -80px;
+}
+
+.stoneityLogoLeftTop {
+  position: absolute;
+  rotate: 135deg;
+  left: -80px;
+  top: -80px;
+}
+.stoneityLogoRightTop {
+  position: absolute;
+  rotate: 135deg;
+  right: -80px;
+  top: -80px;
+}
+
+@media (max-width: 500px) {
+  .stoneityLogoLeft{
+    display: none;
+  }
+
+  .stoneityLogoRight{
+    display: none;
+  }
+
+  .stoneityLogoLeftTop{
+    display: none;
+  }
+
+  .stoneityLogoRightTop{
+    display: none;
+  }
+}
