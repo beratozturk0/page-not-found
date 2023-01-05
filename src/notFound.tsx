@@ -12,7 +12,7 @@ function notFound() {
     <>
       <div className="notFoundWrapper">
         <NotFoundIcon />
-        <div className="notFound">404</div>
+        <div className="notFound">403</div>
         <div className="notFoundTextWrapper">
           <div className="notFoundText">The page you were looking for could not be found.</div>
           <div className="notFoundText"> It might have been removed, renamed or did not exist in the first place</div>
